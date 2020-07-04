@@ -17,3 +17,7 @@ part #3
 part #4
 
 [![Raycasting-game](http://img.youtube.com/vi/MgTHkqMjVa4/0.jpg)](https://www.youtube.com/watch?v=MgTHkqMjVa4 "Raycasting-game #4")
+
+part #5
+
+[![Raycasting-game](http://img.youtube.com/vi/5Yl3UJXzhwM/0.jpg)](https://www.youtube.com/watch?v=5Yl3UJXzhwM "Raycasting-game #5")
