@@ -33,7 +33,7 @@ class Sprites:
                 'scale': 1.1,
                 'animation': deque(
                     [pygame.image.load(f'sprites/devil/anim/{i}.png').convert_alpha() for i in range(9)]),
-                'animation_dist': 550,
+                'animation_dist': 150,
                 'animation_speed': 10,
                 'blocked': True,
             },
