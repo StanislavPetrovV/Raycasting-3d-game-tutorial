@@ -65,7 +65,7 @@ class SpriteObject:
         self.viewing_angles = parameters['viewing_angles']
         self.shift = parameters['shift']
         self.scale = parameters['scale']
-        self.animation = parameters['animation']
+        self.animation = parameters['animation'].copy()
         self.animation_dist = parameters['animation_dist']
         self.animation_speed = parameters['animation_speed']
         self.animation_count = 0
