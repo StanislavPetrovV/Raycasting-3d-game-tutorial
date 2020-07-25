@@ -189,10 +189,10 @@ class SpriteObject:
         self.delete = False
         if self.viewing_angles:
             if len(self.object) == 8:
-                self.sprite_angles = [frozenset(range(338, 360)) | frozenset(range(0, 23))] + \
+                self.sprite_angles = [frozenset(range(338, 361)) | frozenset(range(0, 23))] + \
                                      [frozenset(range(i, i + 45)) for i in range(23, 338, 45)]
             else:
-                self.sprite_angles = [frozenset(range(348, 360)) | frozenset(range(0, 11))] + \
+                self.sprite_angles = [frozenset(range(348, 361)) | frozenset(range(0, 11))] + \
                                      [frozenset(range(i, i + 23)) for i in range(11, 348, 23)]
             self.sprite_positions = {angle: pos for angle, pos in zip(self.sprite_angles, self.object)}
 
